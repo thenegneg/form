@@ -1,0 +1,834 @@
+body{
+    width: 99%;
+    height: calc(100vh - 88px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, #000000, #180720 );
+    padding-top: 70px;
+}
+
+body>div.form{
+    width: 600px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, #27083c5f, #9c80cb3d );
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgb(58, 58, 58);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body>div.form>div.p01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.form>div.p01>div.name{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p01>div.name>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p01>div.name>input{
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+
+body>div.form>div.p01>div.gender{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.form>div.p01>div.gender>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p01>div.gender>select{
+    width: 60%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p01>div.gender>select>option{
+    color: rgb(1, 0, 0);
+}
+
+
+body>div.form>div.p02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.form>div.p02>div.age{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.form>div.p02>div.age>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.age>select{
+    width: 40%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.age>select>option{
+    color: rgb(1, 0, 0);
+}
+
+
+
+body>div.form>div.p02>div.married{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.form>div.p02>div.married>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.married>select{
+    width: 40%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.married>select>option{
+    color: rgb(1, 0, 0);
+}
+
+body>div.form>div.p02>div.degree{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+body>div.form>div.p02>div.degree>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.degree>select{
+    width: 64%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p02>div.degree>select>option{
+    color: rgb(1, 0, 0);
+}
+
+
+body>div.form>div.p03{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+body>div.form>div.p03>div.fathername{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p03>div.fathername>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p03>div.fathername>input{
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p03>div.Mothername{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p03>div.Mothername>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p03>div.Mothername>input{
+    width: 55%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p04{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.form>div.p04>div.id-Number{
+    width: 55%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p04>div.id-Number>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p04>div.id-Number>input{
+    width: 65%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p04>div.E-mail{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p04>div.E-mail>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p04>div.E-mail>input{
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p05{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+body>div.form>div.p05>div.address{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.form>div.p05>div.address>label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p05>div.address>textarea{
+    width: 85%;
+    height: 80px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(240, 248, 255, 0.315);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+    
+}
+
+button.send{
+    width: 70px;
+    height: auto;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+    background-color: rgba(240, 248, 255, 0.558);
+    border: none;
+    outline: none;
+}
+button.send:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+
+
+body>div.ansewr{
+    width: 600px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, #0e083c9a, #6b61b578 );
+    position: relative;
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgb(63, 63, 63);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+body>div.ansewr>div.p01{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.ansewr>div.p01>div.name{
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+
+}
+
+
+body>div.ansewr>div.p01>div.name>p.name{
+    font-size: 1p6x;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+
+body>div.ansewr>div.p01>div.name>span.name{
+    width: 70%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+.bg{
+    background-color: rgba(240, 248, 255, 0.164);
+    line-height: 25px;
+}
+
+
+
+body>div.ansewr>div.p01>div.gender{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.ansewr>div.p01>div.gender>p.gender{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p01>div.gender>span.gender{
+    width: 55%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p01>div.gender>select>option{
+    color: rgb(1, 0, 0);
+}
+
+body>div.ansewr>div.p02{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.ansewr>div.p02>div.age{
+    width: 20%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.ansewr>div.p02>div.age>p.age{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p02>div.age>span.age{
+    width: 40%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p02>div.married{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+
+body>div.ansewr>div.p02>div.married>p.married{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p02>div.married>span.married{
+    width: 40%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+
+body>div.ansewr>div.p02>div.degree{
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p02>div.degree>p.degree{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p02>div.degree>span.degree{
+    width: 60%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p03{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+body>div.ansewr>div.p03>div.fatherName{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p03>div.fatherName>p.fatherName{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p03>div.fatherName>span.fatherName{
+    width: 55%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p03>div.motherName{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p03>div.motherName>p.motherName{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p03>div.motherName>span.motherName{
+    width: 55%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p04{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body>div.ansewr>div.p04>div.id-Number{
+    width: 55%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p04>div.id-Number>p.id-Number{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p04>div.id-Number>span.id-Number{
+    width: 60%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p04>div.E-mail{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p04>div.E-mail>p.E-mail{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p04>div.E-mail>span.E-mail{
+    width: 65%;
+    height: 25px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+}
+
+body>div.form>div.p05{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+body>div.ansewr>div.p05>div.address{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-bottom: 15px;
+}
+body>div.ansewr>div.p05>div.address>p.address{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 15px;
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+body>div.ansewr>div.p05>div.address>span.address{
+    width: 80%;
+    height: 80px;
+    padding: 0 0 0 5px ;
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: whitesmoke;
+    
+    
+}
+
